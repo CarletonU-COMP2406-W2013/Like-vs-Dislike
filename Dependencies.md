@@ -1,7 +1,6 @@
-
 Express:
 ------------
-  Web application framework which allowed us to render pages, store sessions and the Connect middleware.
+ 	Web application framework which allowed us to render pages, store sessions and the Connect middleware.
 
 	License: MIT
 
