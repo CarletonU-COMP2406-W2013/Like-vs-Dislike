@@ -1,3 +1,56 @@
+
+
+app.js
+--------------
+This is our main server application file. This file creates the server and allows access to the database object
+for session storing, content uploading, registration and logging in. This file also contains all the post and get
+functions for our application to render pages and serve images.
+
+db.js
+--------------
+This file has all the functions for performing operations on the database.
+The main operations on the database includes registering users, logging in users,
+getting content to be displayed and uploading new content. This file also contains
+a function which computes a "Trending" score for content based on likes and age of the content.
+
+routes/index.js
+--------------
+This file renders the home page if there is a user logged in.
+If no user is logged in it redirects to user to the login page.
+
+
+routes/login.js
+--------------
+This file renders the login page.
+
+
+routes/pages.js
+--------------
+This file renders the upload content and the categories page.
+It also fetches content for a specified category.
+
+routes/register.js
+--------------
+This file renders the registration page.
+
+
+routes/profile.js
+--------------
+This file renders a user profile page.
+If no user is logged in it redirects to user to the login page.
+
+routes/trending.js
+--------------
+This file renders the trending page.
+If no user is logged in it redirects to user to the login page.
+
+routes/user.js
+--------------
+This files renders the user page and the user list page.
+
+
+
+
 /public/javascripts/load_content.js
 --------------
 This client side file provides the core of the functionality for the application.  This file contains functions for handling the loading of content into a formatted container using jQuery Masonry.  It makes a request to the server for current content, and then appends it to the container of content.  Each content item in the container has like and dislikes buttons which have delegates inside of this file.  These delegates send either like or dislike requests to the server, and then append the current ratio of likes to dislikes.  This files also provided functionality for a single content page in which it generates a bar plot for showing the ratio of likes to dislikes.  This file also has functions for things such as: loading in newly uploaded content without refreshing the page, endless scroll which automatically appends new items and the ability to revote on items.
