@@ -1,0 +1,13 @@
+extends layout
+block content
+    center
+        div(class="mainDiv")
+            h3 Login Page
+            form(action="/login", method="post")
+                div.control-group.input-append
+                    input(type="text", name="username", id="username", data-required)
+                    label.add-on(for="username") Username
+                div.control-group.input-append
+                    input(type="password", name="password", id="password", data-required)
+                    label.add-on(for="password") Password
+                button(type="submit") Login

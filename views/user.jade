@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	script(src='/public/javascripts/user_profile.js')
+	script(type='text/javascript')
+		$(document).ready(function(){
+			UserProfileFunctions.loadInUser(!{JSON.stringify(variable)});
+		});
+
+	center
+		div(id="TopOfUserProfile")
+			h2(id="UsernameTitle")
+			div(class="StalkButton", id="StalkButton")
+		div(class="UserInfoContainer")
+			div(class="UserInfoDiv")
+				div(class="UserInfoInnerDiv", id="UserInfoBox")
+			div(class="UserImageDiv", id="UserImageBox")
+		div(class="StalkingsContainer")
+			div(class="StalkersDiv", id="StalkersBox")
+				h3 Stalkers
+			div(class="StalkingsDiv", id="StalkingsBox")
+				h3 Stalkings
+		h3 Activity
+		div(id="container", style="position: relative;", class="masonry")
