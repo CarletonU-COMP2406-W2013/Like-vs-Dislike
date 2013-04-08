@@ -1,13 +1,12 @@
 
-
 Express:
-
+------------
   Web application framework which allowed us to render pages, store sessions and the Connect middleware.
 
 	License: MIT
 
 Bcrypt:
-
+------------
 	Bcrypt was used to encrypt user passwords before they were inserted into the database, and to decrypt them when logging in a user.
 
 	License: https://github.com/ncb000gt/node.bcrypt.js/blob/master/LICENSE
