@@ -3,14 +3,7 @@ DevinAndJohnApp
 
     Project Description:
     --------------------
-    We are planning on building a social network.  This social network acts as a place for people to see what other
-    people on the internet think of things.  Through pre-configured and user submitted objects (which include everything
-    from things in real life to websites), users are able to "like" or "dislike" them.  Once users start "liking and 
-    "disliking" objects, the application then shows the difference of "likes" to "dislikes".  Other features of the network
-    will include things such as "following" users likes and dislikes and the ability to give reviews on top of your like
-    and dislike.  All content and user information will be stored in a database.  The web server makes requests to the
-    server for getting and setting specific things and then sends this information to the client side Javascript to display.
-    We plan to allow users to log in through Facebook which allows us to post interactions on our website to Facebook.
+    Our project is a social network.  It implements many of the typical social network features such as following users activity and interacting with users.  The main concept behind the site is seeing what the internet thinks of things.  The site is populated with “content” which can be anything from a thing in real life, to a website.  Users can either vote to like, or dislike this content.  The site then displays the ratio of likes to dislikes to show how positive or negative the internets reception of this content is.  Users are able to upload content, and vote on content.  Users are also able to “stalk” other users, which triggers that users activity to be shown in the “stalker’s” newsfeed (Similar to friending someone on Facebook, however it is not a mutual friendship). 
     
     Milestones:
     --------------------
