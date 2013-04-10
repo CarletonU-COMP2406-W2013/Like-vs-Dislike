@@ -4,7 +4,7 @@ DevinAndJohnApp
     Team Members:
     --------------------
     Devin Lynch - 100853179
-    John Marsh
+    John Marsh  - 100865217
 
     Project Description:
     --------------------
