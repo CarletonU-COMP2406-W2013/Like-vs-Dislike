@@ -1,6 +1,11 @@
 DevinAndJohnApp
 ===============
 
+    Team Members:
+    --------------------
+    Devin Lynch - 100853179
+    John Marsh
+
     Project Description:
     --------------------
     Our project is a social network.  It implements many of the typical social network features such as
